@@ -1,0 +1,169 @@
+/* Image Containers */
+
+.imageContainer {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.imagePreview {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 6px;
+}
+
+/* Main */
+
+#createPostContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 750px;
+  /* padding: 0px 24px; */
+  background-color: white;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 6px;
+  margin: auto;
+}
+
+#userInfoContainer {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+#userInfoText {
+  text-align: center;
+}
+
+#imgCountContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+}
+
+#imgCount {
+}
+
+#imgCountBtnContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+.imgCountBtn {
+  background-color: transparent;
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 6px;
+  padding: 2px 6px;
+}
+
+.imgCountIncreaseBtn {
+}
+
+.imgCountDecreaseBtn {
+}
+
+.imgCountBtn + .imgCountBtn {
+  margin-top: 4px;
+}
+
+.imgCountBtn:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+#postCaptionContainer {
+  padding: 8px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px dotted rgb(200, 200, 200);
+}
+
+#captionInput {
+  width: 80%;
+  margin-left: 12px;
+}
+
+/* Nav and Articles */
+
+#postImagesNav {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  max-height: 500px;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 24px;
+  border-bottom: 1px dotted rgb(200, 200, 200);
+}
+
+#postImagesNav::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.imageArticle {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 24px 0px;
+  background-color: whitesmoke;
+  padding: 24px 24px;
+  border-radius: 6px;
+  border: 1px solid rgb(200, 200, 200);
+}
+
+.imageUrlContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.imageUrlInput {
+  width: 85%;
+  margin-left: 12px;
+}
+
+/* finish Btn */
+
+#finishBtnContainer {
+  margin: 24px 0px;
+  padding: 0 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finishBtn {
+  background-color: transparent;
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.finishBtn:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+.finishBtnCreate {
+  color: #0095f6;
+}
+
+/* Util */
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}

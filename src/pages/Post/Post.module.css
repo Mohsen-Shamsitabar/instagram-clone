@@ -1,0 +1,287 @@
+#postContainer {
+  background-color: white;
+  max-width: 850px;
+  height: 500px;
+  margin: 50px auto 0px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #c8c8c8;
+  border-radius: 2px;
+}
+
+/* SLIDER */
+
+#sliderRoot {
+  position: relative;
+  width: 100%;
+  direction: ltr;
+}
+
+#sliderSlidesWrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+#sliderSlidesContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+#sliderSlidesFrame {
+  display: flex;
+}
+
+.sliderSlide {
+  position: relative;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.sliderSlideContent {
+  width: 100%;
+}
+
+#imgSection {
+  position: relative;
+  width: 500px;
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#imgContainer {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+#sliderBtnContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+
+.sliderBtnContainerBtn {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px grey;
+  opacity: 0.25;
+}
+
+.sliderBtnContainerBtn:hover {
+  cursor: pointer;
+}
+
+/* Profile Pics */
+
+.profilePicContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: fit-content;
+  height: fit-content;
+}
+
+.smallProfilePic {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.mediumProfilePic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.bigProfilePic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.smallPostPic {
+}
+
+.mediumPostPic {
+  width: 470px;
+  height: 500px;
+}
+
+.bigPostPic {
+  width: 500px;
+  height: 500px;
+}
+
+/* Context */
+
+#contextSection {
+  width: 100%;
+}
+
+#contextHeader {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 12px;
+  border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.authorInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.authorInfo:hover {
+  cursor: pointer;
+}
+
+.authorName {
+  margin-left: 12px;
+}
+
+#followBtn {
+  border: 0;
+  background-color: transparent;
+}
+
+#followBtn:hover {
+  cursor: pointer;
+}
+
+#postCommentsCommentsNav {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  padding: 0 12px;
+  height: 350px;
+  border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+#postCommentsCommentsNav::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+#postActions {
+  height: 46px;
+  padding: 0 12px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.postActionsBtn {
+  background-color: transparent;
+  border: 0;
+}
+
+.postActionsBtn:hover {
+  cursor: pointer;
+}
+
+.postActionsBtnLike {
+}
+
+#numberOfLikes {
+  font-weight: bold;
+  margin-left: 12px;
+}
+
+.active {
+}
+
+/* add Comment */
+
+#AddCommentContainer {
+  height: 41px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 12px;
+}
+
+#addCommentInput {
+  width: 85%;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+}
+
+#postBtn {
+  width: 15%;
+  border: 0;
+  background-color: transparent;
+  color: #0095f6;
+  font-weight: bold;
+  padding: 0;
+}
+
+#postBtn:hover {
+  cursor: pointer;
+}
+
+/* Util */
+
+.followBtn {
+  color: #0095f6;
+  background-color: transparent;
+  border: 0;
+}
+
+.followBtn:hover {
+  cursor: pointer;
+}
+
+.following {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Comment: check home.ts*/
+
+.postComment {
+  display: flex;
+  flex-direction: row;
+  margin: 16px 0;
+}
+
+.commentContextContainer {
+  margin-left: 12px;
+}
+
+.commentContext {
+}
+
+.postAuthorName {
+  font-weight: bold;
+}
+
+.postAuthorName:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,442 @@
+/* Header */
+
+#headerContainer {
+  z-index: 1090;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+#headerNav {
+  width: 975px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.headerItem {
+}
+
+.instaBrand {
+}
+
+.svgA {
+}
+
+.svgA:hover {
+  cursor: pointer;
+}
+
+.svg {
+}
+
+.svgButton:hover {
+  cursor: pointer;
+}
+
+#headerSearchInput {
+}
+
+#headerButtonsNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerNavButton {
+}
+
+.headerNavButton + .headerNavButton {
+  margin-left: 22px;
+}
+
+/* Image Containers */
+
+.profilePicContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: fit-content;
+  height: fit-content;
+}
+
+.smallProfilePic {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.mediumProfilePic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.bigProfilePic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.smallPostPic {
+  width: 300px;
+  height: 300px;
+}
+
+.mediumPostPic {
+  width: 470px;
+  height: 500px;
+}
+
+.bigPostPic {
+  width: 500px;
+  height: 500px;
+}
+
+/* buttons */
+
+.svgButton {
+  border: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+}
+
+.homeBtn {
+}
+
+.addPostBtn {
+}
+
+.exploreBtn {
+}
+
+.profileBtn {
+}
+
+.profileBtn::after {
+  content: "";
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+/* Main Container */
+
+#mainContainer {
+  margin-top: 60px;
+  padding: 32px 24px;
+}
+
+#mainSection {
+}
+
+#userInfoContainer {
+  display: flex;
+  flex-direction: row;
+  height: 225px;
+  justify-content: center;
+  align-items: center;
+}
+
+#userInfoAvatarContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 72px;
+}
+
+#userInfoContextContainer {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#userNameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+#paramsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+#bioContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#userNameContainerName {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.followBtn {
+  margin-left: 12px;
+  background-color: transparent;
+  border: 0;
+  color: #0095f6;
+}
+
+.followBtn:hover {
+  cursor: pointer;
+}
+
+.following {
+  color: red;
+}
+
+#editProfileBtn {
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 4px 8px;
+  margin-left: 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#editProfileBtn:hover {
+  cursor: pointer;
+}
+
+#settingsBtn {
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  margin-left: 12px;
+}
+
+#settingsBtn:hover {
+  cursor: pointer;
+}
+
+/* Params */
+
+.param {
+}
+
+.param + .param {
+  margin-left: 36px;
+}
+
+#postParam {
+}
+
+#followerParam {
+}
+
+#followingParam {
+}
+
+.bioContainerText {
+  margin: 0;
+}
+
+.bioContainerText + .bioContainerText {
+  margin-top: 6px;
+}
+
+#bioContainerUserId {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#bioContainerBio {
+}
+
+#bioContainerWebsite {
+  width: fit-content;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(0, 55, 107);
+}
+
+#bioContainerWebsite:hover {
+  cursor: pointer;
+}
+
+/* edit and settings */
+
+.editSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#editNameInput {
+  display: flex;
+  width: 975px;
+  margin-bottom: 12px;
+}
+
+#editWebsiteInput {
+  display: flex;
+  width: 975px;
+  margin-bottom: 12px;
+}
+
+#editBioInput {
+  display: flex;
+  width: 975px;
+  margin-bottom: 12px;
+}
+
+#editAvatarInput {
+  display: flex;
+  width: 975px;
+}
+
+#editSectionBtnContainer {
+  margin-top: 24px;
+  width: 975px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.editSectionBtn {
+  background-color: transparent;
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.editSectionBtn:hover {
+  cursor: pointer;
+}
+
+.editSectionBtnConfirm {
+  color: #0095f6;
+}
+
+.editSectionBtnDeleteProfile {
+  color: red;
+}
+
+.editSectionBtnClose {
+}
+
+.editSectionBtnLogout {
+  color: red;
+}
+
+#alart {
+  text-align: center;
+  margin: 28px;
+  font-weight: 800;
+  font-size: large;
+}
+
+/* Divider */
+
+.divider {
+  background-color: rgb(200, 200, 200);
+  border: 0;
+}
+
+.dividerHoriz {
+  max-width: 975px;
+  height: 1px;
+  margin: 64px auto;
+}
+
+/* Post Section */
+
+#postSection {
+  display: flex;
+  flex-direction: column;
+  /* background-color: aquamarine; */
+  align-items: center;
+}
+
+.postContainerRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 975px;
+  /* background-color: brown; */
+}
+
+.postContainerRow + .postContainerRow {
+  margin-top: 36px;
+}
+
+.postContainer {
+  position: relative;
+  background-color: black;
+}
+
+.postContainer:hover {
+  cursor: pointer;
+  opacity: 75%;
+}
+
+.postContainer + .postContainer {
+  margin-left: 37.5px;
+}
+
+/* Footer Container */
+
+#footerContainer {
+  margin-top: 100px;
+  margin-bottom: 52px;
+}
+
+.footerRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerRow + .footerRow {
+  margin-top: 24px;
+}
+
+.footerRowItem {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(150, 150, 150);
+}
+
+.footerRowItem:hover {
+  cursor: pointer;
+}
+
+.footerRowItem + .footerRowItem {
+  margin-left: 10px;
+}
+
+/* Util */
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}

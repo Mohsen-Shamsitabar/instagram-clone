@@ -1,0 +1,174 @@
+/* ---------------Header--------------- */
+
+#headerContainer {
+  z-index: 1090;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+#headerNav {
+  width: 975px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.headerItem {
+}
+
+.instaBrand {
+}
+
+.svgA {
+}
+
+.svgA:hover {
+  cursor: pointer;
+}
+
+.svg {
+}
+
+.svgButton:hover {
+  cursor: pointer;
+}
+
+#headerSearchInput {
+}
+
+#headerButtonsNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerNavButton {
+}
+
+.headerNavButton + .headerNavButton {
+  margin-left: 22px;
+}
+
+.profilePicContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: fit-content;
+  height: fit-content;
+}
+
+.smallProfilePic {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.mediumProfilePic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.bigProfilePic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.smallPostPic {
+}
+
+.mediumPostPic {
+  width: 470px;
+  height: 500px;
+}
+
+.bigPostPic {
+  width: 500px;
+  height: 500px;
+}
+
+/* ---------------btns--------------- */
+
+.svgButton {
+  border: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+}
+
+.homeBtn {
+}
+
+.addPostBtn {
+}
+
+.exploreBtn {
+}
+
+.profileBtn {
+}
+
+/* ---------------body--------------- */
+
+#mainContainer {
+  margin-top: 100px;
+}
+
+#postSection {
+}
+
+#postNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* -------------Footer--------------- */
+
+#footerContainer {
+  margin-top: 100px;
+  margin-bottom: 52px;
+}
+
+.footerRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerRow + .footerRow {
+  margin-top: 24px;
+}
+
+.footerRowItem {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(150, 150, 150);
+}
+
+.footerRowItem:hover {
+  cursor: pointer;
+}
+
+.footerRowItem + .footerRowItem {
+  margin-left: 10px;
+}
